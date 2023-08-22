@@ -1,6 +1,7 @@
 body {
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1em;
 }
 
 .hero {
@@ -11,6 +12,7 @@ body {
     flex-direction: column;
     align-items: center;
     color: white;
+    background-position: center;
 }
 
 .main-header {
@@ -31,6 +33,7 @@ body {
     color: #264653;
 }
 
+
 .activities-container {
     display: flex;
     justify-content: space-around;
@@ -46,9 +49,14 @@ body {
     box-shadow: 0 6px 5px red;
 }
 
-
 .activity-wrapper {
     height: 400px;
+}
+
+.activity-wrapper:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
 }
 
 .activity-title {
@@ -59,7 +67,6 @@ body {
 h3 {
     margin: 0;
     padding: 20px;
-    font-size: 24px;
 }
 
 p {
