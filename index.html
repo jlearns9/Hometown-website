@@ -1,30 +1,52 @@
 <!DOCTYPE html>
-<html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+<html lang="en">
+    <head>
+        <title>Visit San Antonio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     </head>
-    <body>
-        
+    <body>   
         <!-- HERO SECTION -->
-        <div>
-            <h1>Visit Torshov</h1>
-            <h2>Enjoy culture and sports in this vibrant district close to the center of Oslo.</h2>
+        <div class="hero">
+            <h1 class="main-header">Visit San Antonio</h1>
+            <h2 class="sub-header">Enjoy a vibrant culture with a rich history in the heart of Texas</h2>
         </div>
         
         <!-- ACTIVITIES SECTION -->
-        <div>
-            <h3>Top three activities to do at Torshov</h3>
-            <img src="images/park.jpg">
-            <img src="images/theatre.jpg">
-            <img src="images/sports.jpg">
+        <div class="activity-section">
+            <h3>Top three activities to do in San Antonio</h3>
+            <div class="activities-container">
+                <div class="activity-wrapper">
+                    <img class="activity-img" src="images/food.jpg">
+                    <h4 class="activity-title">Bask in Culinary Greatness</h4>
+                    <p>San Antonio's food shines through its rich blend of Tex-Mex traditions, local ingredients, and diverse influences that captures the heart of Texas cuisine</p>
+                </div>
+                <div class="activity-wrapper">
+                    <img class="activity-img" src="images/alamo.jpg">
+                    <h4 class="activity-title">Visit The Alamo</h4>
+                    <p>A designated World Heritage site featuring interactive tours, exhibits and a Living History encampment where you can learn more about frontier life in early Texas</p>
+                </div>
+                <div class="activity-wrapper">
+                    <img class="activity-img" src="images/thrill.jpg">
+                    <h4 class="activity-title">Enjoy our thrilling Theme and Water Parks</h4>
+                    <p>You're next thrilling adventure awaits!  Brace yourself for heart-pounding roller coasters and water slides at places like Six Flags or Schlitterban</p>
+                </div>
+            </div>
         </div>
 
         <!-- GUIDE SECTION -->
-        <div>
-            <h3>Your guide</h3>
-            <p>"I have lived at Torshov for over 30 years, so I can show you all of its best parts and hidden TEST2."</p>
-            <h4>Per Harald Borgen</h4>
-            <img src="images/per.jpg">
+        <div class="guide">
+            <div class="card">
+                <img class="pfp" src="images/per.jpeg">
+                <div>
+                    <h3>Your guide</h3>
+                    <p>"I was there to defend The Alamo, and I'll be there be your tour guide."</p>
+                    <h4>Davy Crockett</h4>
+                </div>
+            </div>
         </div>
     </body>
 </html>
